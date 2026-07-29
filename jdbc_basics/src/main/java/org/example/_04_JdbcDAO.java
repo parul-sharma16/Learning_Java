@@ -21,7 +21,7 @@ class StudentDAO{
     public void connect() {
         String url = "jdbc:mysql://localhost:3306/jdbc_sql";
         String user = "root";
-        String pass = "REDACTED";
+        String pass = "YOUR_PASSWORD";
         try {
             con = DriverManager.getConnection(url, user, pass);
         }

@@ -6,7 +6,7 @@ public class _02_TableOperations {
     static void main(String[] args) {
         String url = "jdbc:mysql://localhost:3306/jdbc_sql";
         String uname = "root";
-        String pass = "REDACTED";
+        String pass = "YOUR_PASSWORD";
         String query = "select * from student";
         try (
                 Connection con = DriverManager.getConnection(url, uname, pass);

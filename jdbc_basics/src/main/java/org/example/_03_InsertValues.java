@@ -6,7 +6,7 @@ public class _03_InsertValues {
     static void main(String[] args) {
         String url = "jdbc:mysql://localhost:3306/jdbc_sql";
         String uname = "root";
-        String pass = "REDACTED";
+        String pass = "YOUR_PASSWORD";
         /* inserting using Statement-->
         int id=4;
         String stud_name="Drishti";
