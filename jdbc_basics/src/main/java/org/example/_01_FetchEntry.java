@@ -2,7 +2,7 @@ package org.example;
 
 import java.sql.*;
 
-public class Main {
+public class _01_FetchEntry {
     static void main(String[] args){
         String url="jdbc:mysql://localhost:3306/jdbc_sql";
         String uname="root";
