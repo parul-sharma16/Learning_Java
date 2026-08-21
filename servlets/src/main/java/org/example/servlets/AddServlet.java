@@ -7,6 +7,9 @@ import jakarta.servlet.ServletException;
 import jakarta.servlet.http.*;
 import jakarta.servlet.annotation.*;
 
+//-------PRIMARY SERVLET---------
+//-------SIMPLE SERVLET--------
+
 @WebServlet("/add")
 public class AddServlet extends HttpServlet {
     @Override

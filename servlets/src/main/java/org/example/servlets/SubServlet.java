@@ -5,6 +5,9 @@ import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.*;
 import java.io.*;
 
+//---------PRIMARY SERVLET-----------
+//---------REQUEST DISPATCHER--------
+
 @WebServlet("/sub")
 public class SubServlet extends HttpServlet {
     public void doGet(HttpServletRequest req, HttpServletResponse res) throws IOException{
