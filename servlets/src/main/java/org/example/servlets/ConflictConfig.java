@@ -28,7 +28,5 @@ public class ConflictConfig extends HttpServlet {
 
         String str3=ctx.getInitParameter("name");
         out.println("I am learning from "+str3);
-
-
     }
 }

@@ -10,7 +10,7 @@ import jakarta.servlet.annotation.*;
 //-------PRIMARY SERVLET---------
 //-------SIMPLE SERVLET--------
 
-@WebServlet("/add")
+//@WebServlet("/add")
 public class AddServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse res) throws IOException {
