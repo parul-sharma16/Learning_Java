@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>JSP - Hello World</title>
+  <title>JSP - Addition</title>
 </head>
 <body bgcolor="#deb887">
 <%
