@@ -23,6 +23,45 @@
             <scope>compile</scope>
         </dependency>
 
+        <!-- Source: https://mvnrepository.com/artifact/org.hibernate.orm/hibernate-jcache -->
+        <dependency>
+            <groupId>org.hibernate.orm</groupId>
+            <artifactId>hibernate-jcache</artifactId>
+            <version>7.4.5.Final</version>
+            <scope>compile</scope>
+        </dependency>
+
+        <!-- Source: https://mvnrepository.com/artifact/org.ehcache/ehcache -->
+        <dependency>
+            <groupId>org.ehcache</groupId>
+            <artifactId>ehcache</artifactId>
+            <version>3.11.1</version>
+            <scope>compile</scope>
+            <classifier>jakarta</classifier>
+            <exclusions>
+                <exclusion>
+                    <groupId>org.glassfish.jaxb</groupId>
+                    <artifactId>jaxb-runtime</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+
+        <!-- Jakarta-compatible JAXB -->
+        <dependency>
+            <groupId>org.glassfish.jaxb</groupId>
+            <artifactId>jaxb-runtime</artifactId>
+            <version>[3,3.1)</version>
+        </dependency>
+
+
+        <!-- Source: https://mvnrepository.com/artifact/javax.cache/cache-api -->
+        <dependency>
+            <groupId>javax.cache</groupId>
+            <artifactId>cache-api</artifactId>
+            <version>1.1.1</version>
+            <scope>compile</scope>
+        </dependency>
+
         <!-- Source: https://mvnrepository.com/artifact/com.mysql/mysql-connector-j -->
         <dependency>
             <groupId>com.mysql</groupId>
